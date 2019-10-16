@@ -1,14 +1,15 @@
 body{
     position: relative;
     background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 81.77%);
-    height: 510px;
+    height: 667px;
+    width: 375px;
     
 }
 .titulo{
     position: absolute;
     font-family: Roboto;
     font-style: normal;
-    left: 60px;
+    left: 95px;
     top: 14px;
 
 }
@@ -18,15 +19,15 @@ body{
     border: white solid 1px;
     border-radius: 40px;
     bottom: 50px;
-    width: 240px;
-    height: 290px;
-    left: 24px;   
-    top: 70px;
+    width: 312px;
+    height: 387px;
+    left: 20px;   
+    top: 71px;
 }
 .icono{
     position: absolute;
-    left: 60px;
-    top:68px;
+    left: 90px;
+    top: 100px;
     
 }
 .registro-boton{
@@ -35,34 +36,41 @@ body{
     font-family: Roboto;
     font-style: normal;
     border: 2px solid #0500FF;
-    padding: 8px 18px;
     box-sizing: border-box;
     border-radius: 20px;
-    top: 390px;
-    left:92px;
+    top: 72.56%;
+    left:22.93%;
+    right: 26.63%;
+    bottom: 22%;
 }  
 
 .registro{
+    position: absolute;
     color: black;
     font-family: Roboto;
-    font-style: normal;
+    font-size: 18px;
+    left: 55px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 .espacio{
     position: absolute;
     font-family: Roboto;
-    font-style: normal;
-    top: 420px;
-    left:144px;
+    font-size: 18px;
+    top: 530px;
+    left:180px;
+    display: flex;
+    align-self: auto;
     
 }
 .sesion{
     position: absolute;
     color: black;
     font-family: Roboto;
-    font-style: normal;
-    top: 458px;
-    left:92px;
-    font-weight: 500px;
+    top: 580px;
+    left:128px;
     font-size: 20px;
-    line-height: 35px;
+    text-decoration: none;
 }
