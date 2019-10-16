@@ -1,106 +1,68 @@
 body{
-
+    position: relative;
+    background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 81.77%);
+    height: 510px;
     
-
-width: 375px;
-height: 667px;
-
-background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 81.77%);
 }
 .titulo{
-    
-    width: 211px;
-height: 35px;
-left: 79px;
-top: 28px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    left: 60px;
+    top: 14px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 35px;
-text-align: center;
-
-color: #010101;
 }
 .marco-icono{
-    
-width: 312px;
-height: 387px;
-left: 29px;
-top: 71px;
-
-background: #FFFFFF;
-border-radius: 68px;
+    position: absolute;
+    background: white;
+    border: white solid 1px;
+    border-radius: 40px;
+    bottom: 50px;
+    width: 240px;
+    height: 290px;
+    left: 24px;   
+    top: 70px;
 }
 .icono{
+    position: absolute;
+    left: 60px;
+    top:68px;
     
-width: 168px;
-height: 160px;
-left: 98px;
-top: 190px;
-
 }
 .registro-boton{
-    
-    
-    left: 22.93%;
-    right: 22.63%;
-    top: 72.56%;
-    bottom: 16.61%;
-
-    background: #5BCFF4;
-    border: 3px solid #0500FF;
-    box-sizing: border-box;
-    border-radius: 44px;
-}
-.registro{
-    
-    width: 154px;
-    height: 35px;
-    left: 140px;
-    top: 530px;
-
+    background:  #5BCFF4;
+    position: absolute;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
+    border: 2px solid #0500FF;
+    padding: 8px 18px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    top: 390px;
+    left:92px;
+}  
 
-    color: #000000;
-
+.registro{
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
 }
 .espacio{
-    
-    width: 18px;
-    height: 35px;
-    left: 176px;
-    top: 564px;
-
+    position: absolute;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
-
-    color: #000000;
+    top: 420px;
+    left:144px;
+    
 }
 .sesion{
-    
-    width: 180px;
-    height: 35px;
-    left: 98px;
-    top: 607px;
-
+    position: absolute;
+    color: black;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
+    top: 458px;
+    left:92px;
+    font-weight: 500px;
+    font-size: 20px;
     line-height: 35px;
-
-    color: #0138F9;
-
-
 }
