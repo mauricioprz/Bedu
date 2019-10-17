@@ -1,76 +1,48 @@
-body{
-    position: relative;
-    background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 81.77%);
-    height: 667px;
-    width: 375px;
-    
+*{
+    margin: 0%;
+    padding: 0%;
 }
-.titulo{
-    position: absolute;
-    font-family: Roboto;
-    font-style: normal;
-    left: 95px;
-    top: 14px;
-
-}
-.marco-icono{
-    position: absolute;
-    background: white;
-    border: white solid 1px;
-    border-radius: 40px;
-    bottom: 50px;
-    width: 312px;
-    height: 387px;
-    left: 20px;   
-    top: 71px;
-}
-.icono{
-    position: absolute;
-    left: 90px;
-    top: 100px;
-    
-}
-.registro-boton{
-    background:  #5BCFF4;
-    position: absolute;
-    font-family: Roboto;
-    font-style: normal;
-    border: 2px solid #0500FF;
-    box-sizing: border-box;
-    border-radius: 20px;
-    top: 72.56%;
-    left:22.93%;
-    right: 26.63%;
-    bottom: 22%;
-}  
-
-.registro{
-    position: absolute;
-    color: black;
-    font-family: Roboto;
-    font-size: 18px;
-    left: 55px;
-    top: 5px;
+.contenedor-padre{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    text-decoration: none;
+    min-height: 100vh;
+    background: gray;
+    align-content: space-around;
 }
-.espacio{
-    position: absolute;
-    font-family: Roboto;
-    font-size: 18px;
-    top: 530px;
-    left:180px;
+.hijo1{
     display: flex;
-    align-self: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid salmon; 
+    background: green;
+
+}
+.hijo2{
+    box-sizing: border-box;
+    border: 1px solid salmon;  
+    background: white;
+    border-radius: 40px;
+    height: 375px;
+    padding: 80px;
     
 }
-.sesion{
-    position: absolute;
-    color: black;
-    font-family: Roboto;
-    top: 580px;
-    left:128px;
-    font-size: 20px;
-    text-decoration: none;
+.hijo3{
+    border: 1px solid salmon;  
+    background: green;
+    padding: 30px;
+    
+}
+.hijo4{
+    border: 1px solid salmon; 
+    background: green;
+    padding: 10px;
+}
+.hijo5{
+    border: 1px solid salmon;  
+    background: green;
+    padding: 30px;
 }
