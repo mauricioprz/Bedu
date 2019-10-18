@@ -62,17 +62,32 @@
     margin-top: 0px;
     text-decoration: none;
 }
-.hijo5{ 
+.hijo5{
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
     font-weight: 500;
-    box-sizing: border-box;
-    justify-content: center;
-    align-content: center;
-    padding: 10px;
-    color: #0138F9
-    width: 165px;
-    margin-top: 0px;
+    margin-top: 10px;
+}
+
+.ancla{
     text-decoration: none;
 }
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(3, 56, 3);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(105, 35, 79);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
