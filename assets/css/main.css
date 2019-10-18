@@ -7,42 +7,72 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background: gray;
-    align-content: space-around;
+    background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 81.77%);
 }
 .hijo1{
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin-top: 47px;
-    box-sizing: border-box;
+    margin-top: 44px;
     padding: 5px;
-    border: 1px solid salmon; 
-    background: green;
 
 }
 .hijo2{
-    box-sizing: border-box;
-    border: 1px solid salmon;  
+    display: flex;
+    box-sizing: content-box; 
+    justify-content: center;
+    align-items: center; 
     background: white;
-    border-radius: 40px;
-    height: 375px;
-    padding: 80px;
+    border-radius: 65px;
+    padding: 86px;
+    height: 205px;
     
 }
-.hijo3{
-    border: 1px solid salmon;  
-    background: green;
-    padding: 30px;
+.hijo3{  
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 1.5px solid #0016b0;
+    background-color: #1CD0F8;
+    border-radius: 48px;
+    width: 165px;
+    margin-top: 20px;
+    text-decoration: none;
     
 }
 .hijo4{
-    border: 1px solid salmon; 
-    background: green;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
     padding: 10px;
+    width: 165px;
+    margin-top: 0px;
+    text-decoration: none;
 }
-.hijo5{
-    border: 1px solid salmon;  
-    background: green;
-    padding: 30px;
+.hijo5{ 
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    color: #0138F9
+    width: 165px;
+    margin-top: 0px;
+    text-decoration: none;
 }
